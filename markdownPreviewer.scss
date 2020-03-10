@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
+$main-color: #7FE1EE;
+$editor-color: #E1EE7F;
+$font-color: #EE7FE1;
+$second-font-color: #E53DD2;
+$main-font: 'Inconsolata', monospace;
+
+body{
+    background-color: $main-color;
+    font-family: $main-font;
+}
+
+.main-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100vw;
+    height: auto;
+    padding: 10px;
+}
+
+.section {
+    background-color: $editor-color;
+    color: $second-font-color;
+    width: 40vw;
+    height: inherit;
+    min-height: 80vh;
+    border-radius: 10px;
+    border: 2px solid $second-font-color;
+    padding: 0px 5px 5px 5px;
+    margin: 5% 5px 10px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.section-header {
+    background-color: $font-color;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+    top: 0px;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#editor {
+    width: 90%;
+    min-height: 70vh;
+    position: relative;
+    padding: 5px;
+    margin: 5px;
+}
+
+#previewer {
+    text-align: left;
+    align-self: start;
+    padding: 5px;
+    margin: 5px;
+}

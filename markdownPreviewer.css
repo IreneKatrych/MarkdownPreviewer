@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Inconsolata&display=swap");
+body {
+  background-color: #7FE1EE;
+  font-family: "Inconsolata", monospace;
+}
+
+.main-part {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 100vw;
+  height: auto;
+  padding: 10px;
+}
+
+.section {
+  background-color: #E1EE7F;
+  color: #E53DD2;
+  width: 40vw;
+  height: inherit;
+  min-height: 80vh;
+  border-radius: 10px;
+  border: 2px solid #E53DD2;
+  padding: 0px 5px 5px 5px;
+  margin: 5% 5px 10px 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-header {
+  background-color: #EE7FE1;
+  padding: 5px;
+  text-align: center;
+  position: relative;
+  top: 0px;
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#editor {
+  width: 90%;
+  min-height: 70vh;
+  position: relative;
+  padding: 5px;
+  margin: 5px;
+}
+
+#previewer {
+  text-align: left;
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
+  padding: 5px;
+  margin: 5px;
+}
+/*# sourceMappingURL=markdownPreviewer.css.map */
